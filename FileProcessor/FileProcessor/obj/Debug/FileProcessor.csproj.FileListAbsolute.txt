@@ -1,0 +1,6 @@
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/bin/Debug/FileProcessor.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/bin/Debug/FileProcessor.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/obj/Debug/FileProcessor.csprojResolveAssemblyReference.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/obj/Debug/FileProcessor.csproj.CoreCompileInputs.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/obj/Debug/FileProcessor.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessor/obj/Debug/FileProcessor.pdb

@@ -1,0 +1,2 @@
+/Users/shenchenpan/RiderProjects/FileProcessor/ConsoleApplication/obj/Debug/ConsoleApplication.csprojResolveAssemblyReference.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/ConsoleApplication/obj/Debug/ConsoleApplication.csproj.CoreCompileInputs.cache

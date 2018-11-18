@@ -1,0 +1,6 @@
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/bin/Debug/FileReader.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/bin/Debug/FileReader.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.csprojResolveAssemblyReference.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.csproj.CoreCompileInputs.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.pdb

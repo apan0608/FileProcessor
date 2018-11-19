@@ -19,14 +19,10 @@ namespace ConsoleApplication
                     var processor = GetFileProcessor(filePath);
                     var hasHeader = true;
                     var content = reader.GetFileContent(filePath, hasHeader);
-
-                    decimal percentage = (decimal)0.2;
+                  
                     if (processor != null && content.HasContent)
                     {
-                        processor.Content = content;
-                        var resultSet = processor.GetBelowMedianByPercentage(percentage);
-                        string message = $"Print data below median value by {percentage * 100}%";
-                        PrintResults(message, resultSet);
+                        ProcessFileAndPrint(processor, content);
                     }
                 }
             }
@@ -56,6 +52,20 @@ namespace ConsoleApplication
             return fileName != null && fileName.Length > identifier.Length &&
                    fileName.Substring(0, identifier.Length) == identifier;
         }
+
+        private static void ProcessFileAndPrint(FileProcessor.FileProcessor processor, FileContent content)
+        {
+            decimal percentage = (decimal)0.2;
+            processor.Content = content;
+            var resultSet = processor.GetBelowMedianByPercentage(percentage);
+            string message = $"Print data below median value by {percentage * 100}%";
+            PrintResults(message, resultSet);
+            
+            resultSet = processor.GetOverMedianByPercentage(percentage);
+            message = $"Print data over median value by {percentage * 100}%";
+            PrintResults(message, resultSet);
+        }
+        
 
         private static void PrintResults(string message, ProcessResultSet resultSet)
         {

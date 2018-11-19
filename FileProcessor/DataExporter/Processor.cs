@@ -22,27 +22,60 @@ namespace DataExporter
         {
             try
             {
-                var files = Directory.GetFiles(directory);                           
+                var files = Directory.GetFiles(directory);
+                TryIncreaseConsoleBuffer();
                 Console.WriteLine($"Start processing files in directory {directory}.");
-                foreach (var filePath in files)
-                {                    
-                    var processor = GetFileProcessor(filePath);
-                    if (processor == null)
-                        continue;
-                    var resultSets = ProcessFile(_reader, processor, filePath);
-                    foreach (var resultSet in resultSets)
-                    {
-                        PrintResults(resultSet);                        
-                    }
-                }
+
+                var resultSets = ReadAllFiles(files);
+                resultSets.ForEach(result => PrintResults(result));
+                ExitConsole();
             }
             catch (Exception exc)
             {
                 Console.WriteLine($"Failed to process files: {exc}"); 
             }
         }
+
+        private void TryIncreaseConsoleBuffer()
+        {
+            try
+            {
+                // Increase console buffer size to maximum. Doesn't work in MAC.
+                Console.SetBufferSize(Console.BufferWidth, 32766);
+            }
+            catch
+            {
+                
+            }
+        }
+
+        private List<ProcessResultSet> ReadAllFiles(string[] files)
+        {
+            var resultSets = new List<ProcessResultSet>();
         
-        public IEnumerable<ProcessResultSet> ProcessFile(IFileReader reader, FileProcessor.FileProcessor processor, string filePath)
+            foreach (var filePath in files)
+            {
+                var processor = GetFileProcessor(filePath);
+                if (processor == null)
+                    continue;
+
+                var results = ProcessFile(_reader, processor, filePath);
+                resultSets.AddRange(results);
+            }
+            return resultSets;
+        }
+        
+        private void ExitConsole()
+        {
+            Console.WriteLine("Press any key to close console.");
+            var key = Console.ReadKey();
+            if (key != null)
+            {
+                Environment.Exit(0);
+            }
+        }
+
+        private IEnumerable<ProcessResultSet> ProcessFile(IFileReader reader, FileProcessor.FileProcessor processor, string filePath)
         {
             var resultSets = new List<ProcessResultSet>();
             var hasHeader = true;

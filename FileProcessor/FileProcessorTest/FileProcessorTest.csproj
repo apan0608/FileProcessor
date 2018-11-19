@@ -56,6 +56,10 @@
     <Content Include="TestFiles\TOU.csv" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataExporter\DataExporter.csproj">
+      <Project>{da6dc552-3188-45c2-9e3d-e4de88383db9}</Project>
+      <Name>DataExporter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FileProcessor\FileProcessor.csproj">
       <Project>{c284da5b-4a13-491f-b6bb-731a3234b1c1}</Project>
       <Name>FileProcessor</Name>

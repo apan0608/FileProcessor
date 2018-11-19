@@ -12,3 +12,5 @@
 /Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/obj/Debug/FileProcessorTest.pdb
 /Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessor.dll
 /Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessor.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/DataExporter.exe
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/DataExporter.pdb

@@ -1,13 +1,10 @@
-using Shared;
 
 namespace FileProcessor
 {
     public class TOUProcessor : FileProcessor
     {       
-        public TOUProcessor()
+        public TOUProcessor() : base("Energy", "Date/Time")
         {
-            _dataValueColumn = "Energy";
-            _dateColumn = "Date/Time";
         }
 
     }

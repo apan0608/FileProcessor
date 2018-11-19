@@ -43,9 +43,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileProcessor.cs" />
+    <Compile Include="DataExporterTest.cs" />
+    <Compile Include="FileProcessorTest.cs" />
     <Compile Include="FileReaderTest.cs" />
+    <Compile Include="MockingFileProcessor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SharedTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TestFiles\EmptyFile.csv" />
+    <Content Include="TestFiles\LP.csv" />
+    <Content Include="TestFiles\TOU.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileProcessor\FileProcessor.csproj">
+      <Project>{c284da5b-4a13-491f-b6bb-731a3234b1c1}</Project>
+      <Name>FileProcessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileReader\FileReader.csproj">
+      <Project>{f6a64043-b12a-4406-b9b0-d2e6688c73d2}</Project>
+      <Name>FileReader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Shared\Shared.csproj">
+      <Project>{346f8274-7aa8-45bd-97a8-6cef830aca2f}</Project>
+      <Name>Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

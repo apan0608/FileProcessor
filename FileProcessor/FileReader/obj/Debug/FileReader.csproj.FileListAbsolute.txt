@@ -4,3 +4,5 @@
 /Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.csproj.CoreCompileInputs.cache
 /Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.dll
 /Users/shenchenpan/RiderProjects/FileProcessor/FileReader/obj/Debug/FileReader.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/bin/Debug/Shared.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileReader/bin/Debug/Shared.pdb

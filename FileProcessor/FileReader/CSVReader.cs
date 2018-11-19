@@ -47,7 +47,7 @@ namespace FileReader
                     }
                 }
             }                          
-            return new FileContent(filePath, lines, headers);
+            return new FileContent(Path.GetFileName(filePath), lines, headers);
         }
     }
 }

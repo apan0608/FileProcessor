@@ -1,0 +1,6 @@
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/bin/Debug/Shared.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/bin/Debug/Shared.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/obj/Debug/Shared.csprojResolveAssemblyReference.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/obj/Debug/Shared.csproj.CoreCompileInputs.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/obj/Debug/Shared.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/Shared/obj/Debug/Shared.pdb

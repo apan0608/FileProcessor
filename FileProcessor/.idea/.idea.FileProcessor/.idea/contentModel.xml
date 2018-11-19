@@ -4,9 +4,9 @@
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_FileProcessor.1883671368.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
-      <e p="ConsoleApplication" t="IncludeRecursive">
+      <e p="DataExporter" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="ConsoleApplication.csproj" t="IncludeRecursive" />
+        <e p="DataExporter.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Processor.cs" t="Include" />
         <e p="Program.cs" t="Include" />
@@ -18,7 +18,6 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="FileProcessor.cs" t="Include" />
         <e p="FileProcessor.csproj" t="IncludeRecursive" />
-        <e p="FileType.cs" t="Include" />
         <e p="LPProcessor.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
@@ -29,12 +28,20 @@
       <e p="FileProcessor.sln" t="IncludeFlat" />
       <e p="FileProcessorTest" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
-        <e p="FileProcessor.cs" t="Include" />
+        <e p="DataExporterTest.cs" t="Include" />
+        <e p="FileProcessorTest.cs" t="Include" />
         <e p="FileProcessorTest.csproj" t="IncludeRecursive" />
         <e p="FileReaderTest.cs" t="Include" />
+        <e p="MockingFileProcessor.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="SharedTest.cs" t="Include" />
+        <e p="TestFiles" t="Include">
+          <e p="EmptyFile.csv" t="Include" />
+          <e p="LP.csv" t="Include" />
+          <e p="TOU.csv" t="Include" />
         </e>
       </e>
       <e p="FileReader" t="IncludeRecursive">
@@ -49,11 +56,16 @@
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Shared" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
         <e p="FileContent.cs" t="Include" />
+        <e p="FileType.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
         <e p="ProcessResult.cs" t="Include" />
         <e p="ProcessResultSet.cs" t="Include" />
-        <e p="Shared.projitems" t="Include" />
-        <e p="Shared.shproj" t="IncludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Shared.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>

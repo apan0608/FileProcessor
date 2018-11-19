@@ -1,0 +1,14 @@
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessorTest.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessorTest.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileReader.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/nunit.framework.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/Shared.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileReader.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/Shared.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/nunit.framework.xml
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/obj/Debug/FileProcessorTest.csprojResolveAssemblyReference.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/obj/Debug/FileProcessorTest.csproj.CoreCompileInputs.cache
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/obj/Debug/FileProcessorTest.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/obj/Debug/FileProcessorTest.pdb
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessor.dll
+/Users/shenchenpan/RiderProjects/FileProcessor/FileProcessorTest/bin/Debug/FileProcessor.pdb
